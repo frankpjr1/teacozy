@@ -1,0 +1,55 @@
+/* zero out the margins and pading on body */
+
+body{
+  margin: 0px;
+  padding:0px;
+}
+
+/* styles for the masthead */
+
+.masthead{
+
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  height: 69px;
+  background-color: #000;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  position: fixed;
+
+}
+
+/* styles for the logo div container */
+
+.logo{
+
+  padding-left: 10px;
+}
+
+/* styles for the logo */
+
+.teacozy-logo{
+  height: 50px;
+  width: auto;
+  padding-right: 50px;
+}
+
+/* styles for the masthead nav links */
+
+.masthead-nav{
+  display: inline-block;
+  text-decoration: underline;
+  padding-right: 10px;
+}
+
+.masthead-nav span{
+  padding-left: 10px;
+}
+
+a:link{
+  color: seashell;
+}
