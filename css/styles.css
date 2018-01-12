@@ -4,7 +4,7 @@ body{
   margin: 0px;
   padding:0px;
   font-family: Helvetica;
-    font-size: 22px;
+  font-size: 22px;
   color: seashell;
   background-color: #000;
 }
@@ -92,19 +92,28 @@ a:link,a:visited{
 .tea-store{
   width: 1000px;
   margin: auto;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
 }
+
+
 
 .tea-month{
   text-align: center;
   margin: 50px 0px;
 }
 
+
+
 .teas{
   display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+  justify-content: center;
+  flex-wrap: wrap;
 
       }
+
+
 
 .item {
   display: flex;
@@ -118,3 +127,59 @@ a:link,a:visited{
   height: 200px;
   padding: 10px 0px;
 }
+
+
+/* styles for locations */
+
+
+.location{
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  margin: 0px;
+  width: 1200px;
+  height: 500px;
+  margin-top: 100px;
+  background-image: url(../images/img-locations-background.jpg);
+
+}
+
+
+.location-wrapper{
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+
+}
+
+
+.location h2{
+  padding-top: 60px;
+  padding-bottom: 15px;
+  margin-bottom: 0px;
+}
+
+
+.store-location{
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  padding: 20px 0px 40px 0px;
+  opacity: 1;
+  margin-right: 40px;
+  width: 300px;
+  background-color: #000;
+  opacity: 1;
+
+}
+
+
+.store-location span{
+  padding: 10px 0px;
+  align-content: space-between;
+
+}
+
+
+/* styles for tea of the month */
